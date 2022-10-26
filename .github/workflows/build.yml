@@ -1,4 +1,4 @@
-name: Build GDrive CLI
+name: Build GDrive CLI For P
 
 on:
   push:
