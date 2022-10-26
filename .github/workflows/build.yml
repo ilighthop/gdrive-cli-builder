@@ -45,7 +45,7 @@ jobs:
         cd $HOME/go/src/github.com/zergolf1994/gdrive/
 
     - name: Save build file to artifact
-      uses: actions/upload-artifact@v3
+      uses: actions/upload-artifact@v1
       with:
         name: gdrive
-        path: build
+        path: release
