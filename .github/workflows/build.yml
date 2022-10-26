@@ -32,7 +32,7 @@ jobs:
 
     - name: Add support for MIPS and MIPSLE
       run: |
-        cd $HOME/go/src/github.com/prasmussen/gdrive/vendor/github.com/soniakeys/graph
+        cd $HOME/go/src/github.com/zergolf1994/gdrive/vendor/github.com/soniakeys/graph
         sed -i "s/+build 386 arm/+build 386 arm mips mipsle/g" bits32.go
         sed -i "s/+build \!386,\!arm/+build \!386,\!arm,\!mips,\!mipsle/g" bits64.go
     
